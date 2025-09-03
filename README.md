@@ -176,6 +176,27 @@ The `train_models.py` script performs the following actions:
 - Generates and saves confusion matrix plots for each model to the `images/` directory.
 - Uses **MLflow** to log experiments, including model parameters and metrics. To view the MLflow UI, run `mlflow ui` in your terminal.
 
+## Model Performance
+
+Here are the confusion matrices for each of the trained models. These plots visualize the performance of the classifiers on the test set.
+
+### Bagging Classifier
+
+![Bagging Confusion Matrix](images/Bagging_confusion_matrix.png)
+
+### Extra Trees Classifier
+
+![Extra Trees Confusion Matrix](images/ExtraTrees_confusion_matrix.png)
+
+### Voting Classifier
+
+![Voting Classifier Confusion Matrix](images/VotingClassifier_confusion_matrix.png)
+
+### Stacking Classifier
+
+![Stacking Classifier Confusion Matrix](images/Stacking_confusion_matrix.png)
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
