@@ -1,1 +1,3 @@
-# ensemble-classifier-learning
+# Ensemble Classifier Learning (Python + MLflow)
+
+This project demonstrates ensemble learning classifiers (Bagging, Extra Trees, Voting, and Stacking)...
